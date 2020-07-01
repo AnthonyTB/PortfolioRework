@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function Menu() {
+const Menu: React.FC<any> = () => {
   return <nav></nav>;
-}
+};
+
+export default Menu;

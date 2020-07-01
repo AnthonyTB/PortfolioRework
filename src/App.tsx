@@ -3,9 +3,6 @@ import { Home } from "./Routes/";
 import { Route, Switch } from "react-router-dom";
 import Menu from "./Menu/Menu";
 
-/**
- * App
- */
 const App: React.FC<any> = () => {
   return (
     <>
