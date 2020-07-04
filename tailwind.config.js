@@ -6,8 +6,8 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
+      sm: '375px',
+      md: '812px',
       lg: '1024px',
       xl: '1280px',
     },
@@ -88,7 +88,7 @@ module.exports = {
         100: '#ebf8ff',
         200: '#bee3f8',
         300: '#90cdf4',
-        400: '#63b3ed',
+        400: '#0F62FE',
         500: '#4299e1',
         600: '#3182ce',
         700: '#2b6cb0',
@@ -281,6 +281,12 @@ module.exports = {
     inset: {
       '0': '0',
       auto: 'auto',
+      '5':'5px',
+      '10': '10px',
+      '20': '20px',
+      '40': '40px',
+      '50': '50px',
+      '80': '80px'
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -357,6 +363,7 @@ module.exports = {
     },
     opacity: {
       '0': '0',
+      '10': '.1',
       '25': '0.25',
       '50': '0.5',
       '75': '0.75',
